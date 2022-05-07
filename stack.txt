@@ -1,0 +1,88 @@
+=============================================
+size = 64, rsize = 65, cap = 128
+
+hash = 3257323878
+
+stack[0] = 1101001
+stack[1] = 1
+stack[2] = 2
+stack[3] = 3
+stack[4] = 4
+stack[5] = 5
+stack[6] = 6
+stack[7] = 7
+stack[8] = 8
+stack[9] = 9
+stack[10] = 10
+stack[11] = 11
+stack[12] = 12
+stack[13] = 13
+stack[14] = 14
+stack[15] = 15
+stack[16] = 16
+stack[17] = 17
+stack[18] = 18
+stack[19] = 19
+stack[20] = 20
+stack[21] = 21
+stack[22] = 22
+stack[23] = 23
+stack[24] = 24
+stack[25] = 25
+stack[26] = 26
+stack[27] = 27
+stack[28] = 28
+stack[29] = 29
+stack[30] = 30
+stack[31] = 31
+stack[32] = 32
+stack[33] = 33
+stack[34] = 34
+stack[35] = 35
+stack[36] = 36
+stack[37] = 37
+stack[38] = 38
+stack[39] = 39
+stack[40] = 40
+stack[41] = 41
+stack[42] = 42
+stack[43] = 43
+stack[44] = 44
+stack[45] = 45
+stack[46] = 46
+stack[47] = 47
+stack[48] = 48
+stack[49] = 49
+stack[50] = 50
+stack[51] = 51
+stack[52] = 52
+stack[53] = 53
+stack[54] = 54
+stack[55] = 55
+stack[56] = 56
+stack[57] = 57
+stack[58] = 58
+stack[59] = 59
+stack[60] = 60
+stack[61] = 61
+stack[62] = 62
+stack[63] = 63
+stack[64] = 64
+stack[65] = 1101001
+=============================================
+
+
+=============================================
+size = 4, rsize = 5, cap = 32
+
+hash = 4055597737
+
+stack[0] = 1101001
+stack[1] = 1
+stack[2] = 2
+stack[3] = 3
+stack[4] = 4
+stack[5] = 1101001
+=============================================
+
+

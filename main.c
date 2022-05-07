@@ -1,38 +1,37 @@
 #include "my_stack_lib.h"
 
+//stack == всё
+
 int main () {
-    
-    int *stack = (int *) calloc (sizeof(int), 1); // create a stack
+     // create a stack
+    int input = 0, output = 0;
+    struct vs* stack = (struct vs*) calloc (sizeof (struct vs), 1);
 
+    stack = stack_alloc(stack);
 
-    
-    int num = 0; 
-    scanf ("%d", &num); // read number
+    /*while (scanf("%d", &input) == 1) {    
+        push (input, stack);
+    }*/
 
-    stack [0] = num;
+    for (int i = 1; i < 65; i++)
+    {
+        push (i, stack);
+    }
 
-    printf("%d", stack[0]);
+    dump (stack);
 
+    for (int i = 0; i < 60; i++)
+    {
+        pop (&output, stack);
+    }
+
+    //assert (1 == pop (&output, stack));
+    assert (1 == verify_hash (stack));
+
+    dump (stack);
+
+    free (stack);
     return 0;
-
 }
 
 
-
-/*
-    
-int *stack = calloc (sizeof(int), 128); // create a stack
-    
-int number = 0; 
-scanf ("%d", number); // read number
-
-push (stack, number):
-
-    stack = (int*) realloc (stack, sizeof (number)) //добавляем память под число
-
-    
-    //вписываем число
-
-
-
-*/
